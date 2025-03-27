@@ -8,9 +8,9 @@
 
 @font-face {
     font-family: 'Brockmann';
-    src: url('fonts/Brockmann.woff') format('woff'),
-         url('fonts/Brockmann.ttf') format('truetype'),
-         url('fonts/Brockmann.otf') format('opentype');
+    src: url('./fonts/Brockmann.woff') format('woff'),
+         url('./fonts/Brockmann.ttf') format('truetype'),
+         url('./fonts/Brockmann.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -137,15 +137,15 @@ section#contact::before {
 }
 
 section#about::before {
-    background-image: url('/Pics/about.jpg');
+    background-image: url('./Pics/about.jpg');
 }
 
 section#services::before {
-    background-image: url('/Pics/services.jpg');
+    background-image: url('./Pics/services.jpg');
 }
 
 section#contact::before {
-    background-image: url('/Pics/contact.jpg');
+    background-image: url('./Pics/contact.jpg');
 }
 
 .section-content {
